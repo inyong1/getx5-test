@@ -1,23 +1,7 @@
 import 'package:get/get.dart';
 
 class HalamanTigaController extends GetxController {
-  //TODO: Implement HalamanTigaController
 
-  final count = 0.obs;
-  @override
-  void onInit() {
-    super.onInit();
-  }
+  bool canPop = false;
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
-
-  @override
-  void onClose() {
-    super.onClose();
-  }
-
-  void increment() => count.value++;
 }
